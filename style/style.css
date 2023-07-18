@@ -21,6 +21,15 @@ body{
     border-radius: 20px;
     text-transform: uppercase;
 }
+.btn-color-3{
+    background-color: white;
+    padding: 10px 25px;
+    color: #FF42A5;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
 
 .title-h1{
     color:#F948B2;
@@ -155,4 +164,99 @@ body{
     position: relative;
     bottom: 150px;
     left: -50px;
+}
+
+/* play-game */
+.play-game{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin: 50px 70px;
+}
+.play-game-img{
+    position: relative;
+}
+.play-game-img img{
+    width: 100%;
+}
+.play-game-img-2{
+    width: 40%;
+    position: absolute;
+    bottom: -50px;
+    right: -50px;
+}
+
+/* careers-section */
+.section-margin{
+    background: #FF42A5;
+}
+.careers-section{
+    display: flex;
+    padding: 50px 70px;
+}
+.careers-text{
+    width: 50%;
+}
+.careers-title{
+    color: white;
+    font-size: 30px;
+}
+.careers-paragraph{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+.link-tag{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.link-tag-content h6{
+    color: white;
+    font-size: 14px;
+}
+.link-tag-content-2 h6{
+    color: white;
+    font-size: 14px;
+    text-align: right;
+}
+.careers-section img{
+    width: 50%;
+}
+
+/* icon-button */
+.icon-button{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 50px 70px;
+}
+.icon-text{
+    display: flex;
+    gap: 20px;
+}
+
+/* footer-section */
+.footer-section{
+    text-align: center;
+    margin: auto;
+    background: #0B0223;
+    color: white;
+    padding: 50px 0px;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.footer-link{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.footer-condition{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
