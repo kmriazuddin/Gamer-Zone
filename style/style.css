@@ -154,6 +154,20 @@ body{
 .game-card-content img{
     width: 100%;
 }
+.game-icon{
+    position: relative;
+}
+.game-icon img{
+    opacity: 0.4;
+}
+.game-card-content-icon i{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    font-size: 40px;
+    justify-content: center;
+    margin: auto;
+}
 
 /* play-instantly */
 .play-instantly{
